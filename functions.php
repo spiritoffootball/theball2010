@@ -100,26 +100,6 @@ add_filter( 'theball_image', 'theball2010_theball_image', 10, 1 );
 
 
 /**
- * Override page list template file.
- *
- * @since 1.0
- *
- * @param str $default The default path to the template file.
- * @return str $default The modified path to the template file.
- */
-function theball2010_pagelist( $default ) {
-
-	// return out theme's page list file
-	return get_stylesheet_directory() . '/assets/includes/page_list.php';
-
-}
-
-// add a filter for the above
-add_filter( 'theball_pagelist', 'theball2010_pagelist', 10, 1 );
-
-
-
-/**
  * Override supporters footer template file.
  *
  * @since 1.0
