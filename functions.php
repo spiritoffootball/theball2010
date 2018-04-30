@@ -232,3 +232,23 @@ add_filter( 'wp_nav_menu', 'theball2010_change_page_menu_classes', 10, 1 );
 
 
 
+/**
+ * Override users in "Team" template file.
+ *
+ * @since 1.0.1
+ *
+ * @param array $users The default set of users.
+ * @return array $users The modified set of users.
+ */
+function theball2010_team_members( $default ) {
+
+	// 2010 users
+	return array( 7, 2, 3, 4, 8 );
+
+}
+
+// add a filter for the above
+add_filter( 'theball_team_members', 'theball2010_team_members', 10, 1 );
+
+
+
