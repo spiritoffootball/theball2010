@@ -19,7 +19,7 @@ NOTES
 
 		<div id="splash">
 
-			<a href="/2010/files/2009/11/ak_children_with_ball_640.jpg"><img src="/2010/files/2009/11/ak_children_with_ball_640-320x240.jpg" alt="Children with an Alive &amp; Kicking ball" title="Children with an Alive &amp; Kicking ball" width="200" height="150" class="size-medium wp-image-52" /></a>
+			<a href="/2010/files/2009/11/ak_children_with_ball_640.jpg"><img src="/2010/files/2009/11/ak_children_with_ball_640.jpg" alt="Children with an Alive &amp; Kicking ball" title="Children with an Alive &amp; Kicking ball" width="200" height="150" class="size-medium wp-image-52" /></a>
 
 		</div><!-- /splash -->
 
