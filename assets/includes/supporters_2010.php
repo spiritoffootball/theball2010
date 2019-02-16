@@ -24,9 +24,9 @@ NOTES
 
 			<li><a href="http://www.goethe.de/todo-aleman" title="Todo Aleman"><img class="partner_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/todo_aleman_logo.jpg" alt="Todo Aleman Logo" /></a></li>
 
-			<li><a href="http://spiritoffootball.com/" title="Spirit of Football CIC"><img class="partner_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/sof_logo.png" alt="Spirit of Football CIC Logo" /></a></li>
+			<li><a href="https://spiritoffootball.com/" title="Spirit of Football CIC"><img class="partner_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/sof_logo.png" alt="Spirit of Football CIC Logo" /></a></li>
 
-			<li><a href="http://www.spirit-of-football.de/" title="Spirit of Football e.V."><img class="partner_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/sof_ev_logo.png" alt="Spirit of Football e.V. Logo" /></a></li>
+			<li><a href="https://spirit-of-football.de/" title="Spirit of Football e.V."><img class="partner_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/sof_ev_logo.png" alt="Spirit of Football e.V. Logo" /></a></li>
 
 			<li><a href="http://www.africa10.com/" title="Africa 10"><img class="partner_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/partners/africa10_logo.png" alt="Africa 10 Logo" /></a></li>
 
