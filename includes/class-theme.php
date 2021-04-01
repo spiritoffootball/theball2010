@@ -146,7 +146,7 @@ class SOF_The_Ball_2010_Theme {
 		 * Make theme available for translation.
 		 * Translations can be added to the /languages/ directory of the child theme.
 		 */
-		load_theme_textdomain(
+		load_child_theme_textdomain(
 			'theball2010',
 			get_stylesheet_directory() . '/languages'
 		);
