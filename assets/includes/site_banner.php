@@ -1,13 +1,10 @@
-<?php /*
-================================================================================
-Site Banner Template
-================================================================================
-AUTHOR: Christian Wach <needle@haystack.co.uk>
---------------------------------------------------------------------------------
-NOTES
-
---------------------------------------------------------------------------------
-*/
+<?php
+/**
+ * Site Banner Template.
+ *
+ * @since 1.0.0
+ * @package The_Ball_2010
+ */
 
 ?><!-- assets/includes/site_banner.php -->
 
@@ -28,13 +25,13 @@ NOTES
 
 		<div id="banner_copy">
 
-			<h2>Welcome to <?php bloginfo( 'title' ); if ( is_home() ) { echo ' blog'; } ?></h2>
+			<h2><?php echo sprintf( __( 'Welcome to %s', 'theball2010' ), get_bloginfo( 'title' ) ); ?></h2>
 
 			<p><em>"An African ball made for the poorest African communities &mdash; the very embodiment of development through football in Africa"</em><br />
 			&mdash; James Flecker of Alive &amp; Kicking</p>
 
 			<?php if ( ! is_home() ) { ?>
-				<p id="gotoblog"><a href="/2010/blog/">Read the blog &rarr;</a></p>
+				<p id="gotoblog"><a href="/2010/blog/"><?php echo sprintf( __( 'Read the blog %s', 'theball2010' ), '&rarr;' ); ?></a></p>
 			<?php } ?>
 
 		</div><!-- /banner_copy -->
@@ -43,8 +40,6 @@ NOTES
 
 </div><!-- /site_banner -->
 
-
-
 <div id="cols" class="clearfix">
 <div class="cols_inner">
 
@@ -52,6 +47,3 @@ NOTES
 	<?php if ( $page_list ) : ?>
 		<?php load_template( $page_list ); ?>
 	<?php endif; ?>
-
-
-
